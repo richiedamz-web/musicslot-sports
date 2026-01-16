@@ -6,13 +6,13 @@
 }
 
 #slot-machine img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin: 5px;
   border: 2px solid #333;
   border-radius: 8px;
-  object-fit: cover;
-  transform:  scale(1.05);
+  object-fit: contain;
+  background-color: white;
 }
 
 #result {
@@ -51,4 +51,4 @@
   50%  { transform: scaleY(0.9); }
   100% { transform: scaleY(1); }
 }
-}
+
