@@ -11,7 +11,8 @@
   margin: 5px;
   border: 2px solid #333;
   border-radius: 8px;
-  object-fit: contain;
+  object-fit: cover;
+  transform:  scale(1.05);
 }
 
 #result {
